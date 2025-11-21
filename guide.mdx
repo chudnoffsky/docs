@@ -1,0 +1,95 @@
+---
+title: Step-by-Step Guide
+description: A complete guide to using OpenMask wallet, the TON Devnet faucet, and the TON Devnet Explorer.
+---
+
+# TON Devnet Guide
+
+This guide will walk you through connecting your wallet, obtaining test tokens, and using the TON Devnet Explorer.
+
+---
+
+## 1. OpenMask Wallet
+
+### 1.1 Installation
+
+1. Go to the OpenMask website: [https://www.openmask.app](https://www.openmask.app)  
+2. Install the browser extension (Chrome, Brave, Edge).
+
+### 1.2 Creating a Wallet
+
+1. Open the OpenMask extension and select the **Testnet** network.  
+2. Create a new wallet or import an existing seed phrase.  
+3. After creation, click the icon in the top-right corner to open **Settings**.
+
+### 1.3 Configuring the Devnet Network
+
+1. Click **Account Settings** in the menu.  
+2. Select **Networks**.  
+3. Scroll through the list, select **Testnet**, and check **Custom configuration**.  
+4. Enter the following TON Devnet details:
+
+   - **RPC URL:**  
+     `https://ton-center-v2.ton-devnet.velia-sgp1.rsquad.solutions/jsonRPC`  
+   - **Scan URL:**  
+     `https://ton-cloud-web.vercel.app/explorer/address/`
+
+5. Click **Back to Settings**, then **Back to Home**.  
+
+> Your wallet is now connected to TON Devnet and ready for test transactions.
+
+---
+
+## 2. Faucet
+
+### 2.1 Faucet URL
+
+Access the TON Devnet faucet here:  
+[http://ton-utils-web.ton-devnet.velia-sbg1.rsquad.solutions/faucet](http://ton-utils-web.ton-devnet.velia-sbg1.rsquad.solutions/faucet)
+
+### 2.2 Using the Faucet
+
+#### Option 1: Connect Wallet
+
+1. Click **Connect Wallet**.  
+2. Select **OpenMask** and confirm in the browser extension.  
+3. Your wallet address will automatically populate the input field.  
+4. Click **Get Test Tokens**.
+
+#### Option 2: Enter Wallet Address Manually
+
+1. Copy your OpenMask wallet address.  
+2. Paste it into the **Wallet Address** field on the faucet page.  
+3. Click **Get Test Tokens**.  
+4. Complete the CAPTCHA to verify you are not a bot.  
+5. You will receive **10 test TON tokens** in your wallet within seconds.
+
+### 2.3 Important Faucet Limits
+
+- **10 Test Tokens per request**  
+- **24h Rate Limit:** You can request tokens only once per day
+
+---
+
+## 3. TON Devnet Explorer
+
+### 3.1 Explorer Setup
+
+1. Open the Explorer: [https://ton-cloud-web.vercel.app/explorer](https://ton-cloud-web.vercel.app/explorer)  
+2. Click **Custom API** at the bottom of the page.  
+3. In the **Enter API Endpoint** field, paste one of the RPC URLs:  
+   - `https://ton-center-v2.ton-devnet.velia-sbg1.rsquad.solutions/jsonRPC`  
+   - `https://ton-center-v2.ton-devnet.velia-stl1.rsquad.solutions/jsonRPC`  
+   - `https://ton-center-v2.ton-devnet.velia-sgp1.rsquad.solutions/jsonRPC`  
+4. In **Select Schema**, choose **TonCenter V2**.  
+5. Click **Save**.  
+6. If successful, the endpoint will show status **live**.
+
+### 3.2 Using the Explorer
+
+1. Enter your wallet address in the search bar.  
+2. View balances, incoming/outgoing transactions, and token operations.
+
+---
+
+> Your wallet is now connected, funded with test tokens, and ready to explore the TON Devnet!
